@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# 
+# Start of session at: Wed Feb 26 13:53:51 2020
+# Process ID: 6304
+# Current directory: D:/Marat/testSortingIP/testSortingIP.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/Marat/testSortingIP/testSortingIP.sdk/webtalk/webtalk.log
+# Journal file: D:/Marat/testSortingIP/testSortingIP.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

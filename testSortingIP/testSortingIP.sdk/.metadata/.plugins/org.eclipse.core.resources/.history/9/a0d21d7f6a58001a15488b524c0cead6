@@ -1,0 +1,23 @@
+/*
+ * test.c
+ *
+ *  Created on: Feb 26, 2020
+ *      Author: User
+ */
+
+#include <stdio.h>
+#include <xil_io.h>
+#include "xparameters.h"
+
+int main(){
+	int number, result, total;
+	printf("Hello to the sorting program!");
+	scanf("Enter how many numbers in a sequence: %i", &total);
+	while (total > 0){
+		scanf("Enter your number: %i", &number);
+		Xil_Out32(XPAR_SORTINGIP_0_S00_AXI_BASEADDR, number);
+		total--;
+	}
+	result = Xil_In32(XPAR_SORTINGIP_0_S00_AXI_BASEADDR+4);
+	printf("The maximum number in a sequence is: %i", result);
+}
